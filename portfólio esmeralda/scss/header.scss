@@ -1,0 +1,33 @@
+header {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo {
+            margin-top: 3.5rem;
+            h2 {
+                font-weight: 700;
+                font-size: 2.6rem;
+                line-height: 3.4rem;
+                color: #F9F9F9;
+            }
+        }
+        nav {
+            ul {
+                display: flex;
+                margin-top: 4rem;
+                li {
+                    &:not(:first-child) {
+                        margin-left: 4.5rem;
+                    }
+                    a {
+                        font-weight: 400;
+                        font-size: 1.8rem;
+                        line-height: 2.3rem;
+                        color: #F9F9F9;
+                    }
+                }
+            }
+        }
+    }
+}
